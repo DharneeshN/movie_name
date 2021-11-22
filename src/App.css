@@ -1,0 +1,122 @@
+
+
+
+
+.App-logo {
+  height: 40vmi n;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* custom css */
+
+body{
+  background-color: #343131;
+}
+.container{
+  width: 70%;
+  margin-top: 0%;
+  margin-left: 15%;
+  padding-top: 0px;
+  padding-bottom: 20px;
+  color:white;
+  
+  
+} 
+.paddin{
+  padding: 15px;
+  margin-top: 0px;
+}
+
+.search-field{
+  width: 80%;
+  height: 25%;
+  font-size: 18 px;
+  border-radius: 10px;
+  /* border: 2px solid grey; */
+  outline: none;
+  text-indent: 20px;
+  border-color: white;
+  background-color: #343131;
+  color: white;
+}
+.movie{
+  padding:5px;
+  /* background-color: grey; */
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+.poster{
+   height: 500px;
+   width:35%;
+   /* background-color: red; */
+   overflow: hidden;
+
+}
+.details{
+   height: 500px;
+   width:60%;
+   margin-top: 0%;
+   /* background-color: yellow; */
+    
+
+}
+.img-Poster{
+  width:100%;
+  
+}
+.paddin p{
+  font-size: 15px;
+  
+}
+.Input-group{
+  display: flex;
+  
+  justify-content:space-between;
+  margin-top: 10px;
+}
+.btn{
+  width: 15%;
+  border-radius: 10px;
+  background-color: #1674f9;
+  color: azure;
+  cursor: pointer;
+  border: none;
+}
+.copy{
+  font-size:small;
+  text-align: center;
+  font-weight: bold;
+  font-style: oblique;
+}
